@@ -22,7 +22,7 @@ Create an account in https://www.themoviedb.org/. Once you successfully created 
 2. Install all the libraries mentioned in the `requirements.txt` file with the command `pip install -r requirements.txt`
 3. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
 4. Replace YOUR_API_KEY in `TMDB_API_KEY`
-5. Open your terminal/command prompt from your project directory and run the file `app.py` by executing the command `streamlit app.py`.
+5. Open your terminal/command prompt from your project directory and run the file `app.py` by executing the command `streamlit run app.py`.
 6. Hurray! That's it.
 
 ## Architecture
