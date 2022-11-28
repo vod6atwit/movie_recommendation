@@ -21,6 +21,7 @@ There are two datasets:
 
   ![Picture1](Data2.png)
   
+The dataset can be found at [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)[1] 
 
 ## Method 
 
@@ -32,6 +33,11 @@ There are two datasets:
 
 
 ## Summary 
+
+
+## Reference
+[1][Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
+
 
 
 
