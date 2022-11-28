@@ -1,3 +1,8 @@
+# Movie Recommendation - Group Project
+![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-red)
+![API](https://img.shields.io/badge/API-TMDB-fcba03)
+
 ## Introduction
 When we click on a movie on Netfix to watch then it recommend us so many movies relate to the movie that we click on. We wondered ourself that how they can do that and what are the keys. These factors motivate our group to do this project for the Data Science Fundamental class.
 
@@ -32,11 +37,9 @@ There are two datasets:
 
 
 
-# Movie Recommendation System
 
-![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-![Framework](https://img.shields.io/badge/Framework-Streamlit-red)
-![API](https://img.shields.io/badge/API-TMDB-fcba03)
+
+
 
 A content-based recommender system that recommends movies similar to the movie the user enter
 
