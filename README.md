@@ -4,7 +4,11 @@ When we click on a movie on Netfix to watch then it recommend us so many movies 
 The objective of this project is to practice using Jupiter Notebook. The movies recommendation are based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the movie_id, the titles, and the tags. The tags of the movies include genres, keywords, overview, cast, crew. The details of the movies are fetched from 
 
 ## Selection of Data 
+The model processing and training are conducted using Jupiter Notebook. 
 
+There are two datasets: 
+  - tmdb_5000_movies.csv. This dataset includes 20 features such as 'budget', 'genres', 'homepage','id','keywords',...
+  ![Picture1](Data1.png)
 
 ## Method 
 
