@@ -1,3 +1,25 @@
+## Introduction
+
+
+
+## Selection of Data 
+
+
+## Method 
+
+
+## Results 
+
+
+## Discussion 
+
+
+## Summary 
+
+
+
+
+
 # Movie Recommendation System
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
