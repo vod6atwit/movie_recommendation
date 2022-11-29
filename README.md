@@ -42,11 +42,10 @@ The dataset can be found at [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-m
 
 ### Inference methods used with nltk:
 
-#### Modules: stem.porter
+- Modules: stem.porter
+- Classes: PorterStemmer
 
-#### Classes: PorterStemmer
-
-**PorterStemmer:** Stemming and lemmatization
+#### - PorterStemmer: Stemming and lemmatization
 
 Removing the commoner morphological and inflexional endings from words in English.
 
@@ -57,24 +56,23 @@ Removing the commoner morphological and inflexional endings from words in Englis
 
 ### Inference methods used with Scikit-learn:
 
-#### Modules: feature_extraction.text, metrics.pairwise
+- Modules: feature_extraction.text, metrics.pairwise
+- Classes: CountVectorizer (stop word), cosine_similarity
 
-#### Classes: CountVectorizer (stop word), cosine_similarity
-
-**CountVectorizer:**
+#### - CountVectorizer:
 
 - Word vectorization - words to vectors (list of number)
 - Using Bag of Words ( simplifying representation for NLP), representing words by their frequencies
 
 ##### **Ex:**
 
-movie_1 : action movie (tags)
-movie_2 : SciFi movie (tags)
-moive_3 : adventure movie (tags)
+- movie_1 : action movie (tags)
+- movie_2 : SciFi movie (tags)
+- movie_3 : adventure movie (tags)
 
 ![counterVectorizer](./CountVectorizer_ex.png)
 
-**Cosine similarity:**
+#### - Cosine similarity:
 
 Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
 
@@ -86,15 +84,15 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 
 ##### **Ex:**
 
-if angle = 5 => two movies are considered almost the same
+- if angle = 5 => two movies are considered almost the same
+- if angle = 90 => two movies are considered to be haft the same
+- if angle = 180 => two movies are considered differently with each other’s
 
-if angle = 90 => two movies are considered to be haft the same
+**More about Cosine Similarity:**
 
-if angle = 180 => two movies are considered differently with each other’s
+[Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)[3]
 
-More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)[3]
-
-**Similarity Score:**
+#### - Similarity Score:
 
 **How does it decide which movie is most similar to the movie user enter(or selects)?** Here comes the similarity scores.
 
