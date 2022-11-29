@@ -10,7 +10,7 @@ A content-based recommender system that recommends movies similar to the movie t
 
 When we click on a movie on Netfix to watch then it recommend us so many movies relate to the movie that we click on. We wondered ourself that how they can do that and what are the keys. These factors motivate our group to do this project for the Data Science Fundamental class.
 
-The objective of this project is to practice using Jupiter Notebook. The movies recommendation are based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the movie_id, the titles, and the tags. The tags of the movies include genres, keywords, overview, cast, crew. The details of the movies are fetched from [TMDB](https://developers.themoviedb.org/3/getting-started/introduction).
+The objective of this project is to practice using Jupiter Notebook. The movies recommendation are based on the content of the movie you entered or selected. The main parameters that are considered for the recommendations are the movie_id, the titles, and the tags. The tags of the movies include genres, keywords, overview, cast, crew. The details of the movies are fetched from [TMDB](https://developers.themoviedb.org/3/getting-started/introduction).[1]
 
 ## Selection of Data
 
@@ -26,7 +26,7 @@ There are two datasets:
 
 ![Picture1](Data2.png)
 
-The dataset can be found at [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)[1]
+The dataset can be found at [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)[2]
 
 ## Method
 
@@ -36,7 +36,7 @@ The dataset can be found at [kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-m
 - Matplotlib (pylot) for visualizing features
 - ast (literal_eval) for evaluating a string that contains a Python list, and convert it to a list object
 - Pickle (dump, load) for converting a Python object into a byte stream to store it in a file/database, maintain program state across sessions, or transport data over the network.
-- [Streamlit](https://docs.streamlit.io/)[2] (st) for wep app design
+- [Streamlit](https://docs.streamlit.io/)[3] (st) for wep app design
 - GitHub and Heroku for web app deployment and hosting/version control
 - VS Code as IDE, jupyter notebook
 
@@ -90,7 +90,7 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 
 **More about Cosine Similarity:**
 
-[Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)[3]
+[Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)[4]
 
 #### - Similarity Score:
 
@@ -108,7 +108,7 @@ Check out the live demo: https://movies-recommender-vod6.herokuapp.com/
 
 ### How to get the API key?
 
-Create an account in [the movie database](https://www.themoviedb.org/.)[4] Once you successfully created an account, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for an API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request has been approved.
+Create an account in [the movie database](https://www.themoviedb.org/.)[5] Once you successfully created an account, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for an API key. If you are asked for the website URL, just give "NA" if you don't have one. You will see the API key in your `API` sidebar once your request has been approved.
 
 ### How to run the project?
 
@@ -125,7 +125,12 @@ Create an account in [the movie database](https://www.themoviedb.org/.)[4] Once 
 
 ## Reference
 
-[1] [movie dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
-[2] [Streamlit](https://docs.streamlit.io/)
-[3] [Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
-[4] [the movie database](https://www.themoviedb.org/.)
+[1] [TMDB](https://developers.themoviedb.org/3/getting-started/introduction)
+
+[2] [movie dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
+
+[3] [Streamlit](https://docs.streamlit.io/)
+
+[4] [Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
+
+[5] [the movie database](https://www.themoviedb.org/.)
