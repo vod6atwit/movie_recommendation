@@ -18,11 +18,11 @@ The model processing and training are conducted using Jupiter Notebook.
 
 There are two datasets:
 
-- tmdb_5000_movies.csv. This dataset includes 20 features such as 'budget', 'genres', 'homepage','id','keywords',...
+- 'tmdb_5000_movies.csv'. This dataset includes 20 features such as 'budget', 'genres', 'homepage','id','keywords',...
 
 ![Picture1](Data1.png)
 
-- tmdb_5000_credits.csv. This dataset includes 4 features such as 'movie_id', 'title', 'cast', 'crew'.
+- 'tmdb_5000_credits.csv'. This dataset includes 4 features such as 'movie_id', 'title', 'cast', 'crew'.
 
 ![Picture1](Data2.png)
 
