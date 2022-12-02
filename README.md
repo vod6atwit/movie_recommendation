@@ -121,7 +121,15 @@ Create an account in [the movie database](https://www.themoviedb.org/.)[5] Once 
 
 ## Discussion
 
+- Suggestion user which movies has related and waste less time browsing the next movie which the same genres.
+- Searching engine for us and another research using the difference matrix factorizations
+- Future Research is making rating for movie and analyze the leaving the users’ commend to improve our movie recommendation’ s accuracy.
+
 ## Summary
+
+- Abstract each movie as the data point and used the cosine similarity to giving the recommendation for each movie
+- Representation and visualization the result as the web-page
+- Large and heavy dataset giving us the issue about the run-time complexity
 
 ## Reference
 
